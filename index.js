@@ -3,7 +3,7 @@ let app = express();
 
 app.get("/", (req, res) => {
   //req=req.query.name.toUpperCase();
-  let welcomeNote = "You are on the index page";
+  let welcomeNote = "Hey, Amit here, sending you a hello!";
   res.send(welcomeNote);
 });
 
